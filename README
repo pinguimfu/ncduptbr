@@ -1,37 +1,30 @@
 ncdu 1.15.1
 ===========
 
-DESCRIPTION
+DESCRIÇÂO
 
-  ncdu (NCurses Disk Usage) is a curses-based version of
-  the well-known 'du', and provides a fast way to see what
-  directories are using your disk space.
+  ncdu (NCurses Disk Usage) é uma versão grafica usando NCurses do conhecido comando DU que permite ver de forma rapida aquilo que ocupa espaço no seu disco
 
+REQUISITOS
 
-REQUIREMENTS
+Para Usar o NCDU você precisa de:
 
-  In order to compile and install ncdu, you need to have
-  at least...
-
-  - a POSIX-compliant operating system (Linux, BSD, etc)
-  - curses libraries and header files
+  - Um Sistema POSIX (Mac.Linux,BSD)
+  - Ncurses com as suas bibliotecas DEV se quiser compilar
 
 
-INSTALL
+INSTALAÇÂO
 
-  The usual:
+  O Usual:
 
     ./configure --prefix=/usr
     make
     make install
 
-  If you're building directly from the git repository, make sure you have perl
-  (or rather, pod2man), pkg-config and GNU autoconf/automake installed, then
-  run 'autoreconf -i', and you're ready to continue with the usual ./configure
-  and make route.
+  Se for reconstruir a partir do GIT por favor tenha tambem:
+  perl e pod2man, pkg-config e o GNU autoconf/automake instalado, depois rode
+  'autoreconf -i', e depois faça o ,/configure normalmente
 
-
-COPYING
 
   Copyright (c) 2007-2020 Yoran Heling
 
