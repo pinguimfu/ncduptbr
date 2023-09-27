@@ -3,7 +3,9 @@ ncdu 1.15.1
 
 DESCRIÇÂO
 
-  ncdu (NCurses Disk Usage) é uma versão grafica usando NCurses do conhecido comando DU que permite ver de forma rapida aquilo que ocupa espaço no seu disco
+ncdu (NCurses Disk Usage) é uma versão grafica usando NCurses do conhecido comando DU que permite ver de forma rapida aquilo que ocupa espaço no seu disco
+
+Esta é uma versão do programa traduzida por mim
 
 REQUISITOS
 
